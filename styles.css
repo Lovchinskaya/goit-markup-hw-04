@@ -270,7 +270,57 @@ ul {
     box-shadow: 0 2px 2px var(--text-color);
     text-align: center;
 }
+.social-group {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
 
+}
+.social-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px; 
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.social-icon {
+    fill: #AFB1B8;
+}
+.social-cover:hover,
+.social-cover:hover .social-icon
+{
+    fill: var(--general-white-color);
+    background-color:#2196F3;
+    cursor: pointer;
+
+}
+
+/*companies*/
+.companies {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.company-brands {
+    display: flex;
+    justify-content: space-between;
+}
+.brand{
+    width: 170px;
+    height: 92px;
+    border: 1px solid   #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #AFB1B8;
+}
+.brand:hover {
+    border-color: var(--blue-brand-color);
+    fill: var(--blue-brand-color);
+}
 /*portfolio*/
 .portfolio {
     padding-top: 95px;
@@ -339,6 +389,12 @@ ul > .cards-portfolio{
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer-container{
+    display: flex;
+}
+.footer-contacts {
+    margin-right: 70px;
+}
 a.logo-footer {
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -364,4 +420,40 @@ a.logo-footer {
     line-height: 1.7;
     letter-spacing: 0.03em;
     margin-bottom: 10px;
+}
+.join {
+    padding-top: 10px;
+}
+.footer-join {
+    text-transform: uppercase;
+    color: var(--general-white-color);
+    text-align: center;  
+    letter-spacing: 0.03em;
+    font-size: 14;
+    font-weight: 700px;
+}
+.social-link {
+    margin-top: 20px;
+    
+}
+.social-cover-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px; 
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #44454E;
+}
+.social-icon-footer {
+    fill: var(--general-white-color);
+}
+.social-cover-footer:hover,
+.social-cover-footer:hover .social-icon-footer
+{
+    fill: var(--general-white-color);
+    background-color:#2196F3;
+    cursor: pointer;
+
 }
