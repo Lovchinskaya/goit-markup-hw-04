@@ -70,9 +70,7 @@ ul {
 }
 .nav-menu-inner {
     display: flex;
-
     padding-left: 0;
-
 }
 .nav-menu {
     margin-right: 50px;
@@ -386,8 +384,7 @@ ul {
     margin-bottom: 30px;
 }
 .cards-portfolio:hover {
-    box-shadow:  0px, 1px
-    rgba(0, 0, 0, 0.12);
+    box-shadow:  0px 4px 6px 0px rgba(0, 0, 0, 0.12);
 }
 .card-portfolio-desc {
     padding-top: 20px;
