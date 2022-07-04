@@ -101,7 +101,12 @@ ul {
 .nav-menu > a:hover  {
     color: #2196F3;
 }
-.nav-menu-contact > a:hover {
+.nav-menu > a:focus  {
+    color: #2196F3;
+}
+.nav-menu-contact > a:hover,
+.nav-menu-contact > a:focus
+{
     color: #2196F3;
     fill: #2196F3;
 }
@@ -181,8 +186,14 @@ ul {
     padding-bottom: 94px;
 }
 .short-description:not(:nth-last-child(1)){
-    padding-right: 50px;
+    margin-right: 30px;
 }
+.short-description{
+    width: 270px;
+    margin-right: 30px;
+    display: block;
+}
+
 .sub-title {
     text-transform: uppercase;
     font-weight: 700;
@@ -289,6 +300,7 @@ ul {
 .social-icon {
     fill: #AFB1B8;
 }
+
 .social-cover:hover,
 .social-cover:hover .social-icon
 {
@@ -307,7 +319,7 @@ ul {
     display: flex;
     justify-content: space-between;
 }
-.brand{
+.brand-card{
     width: 170px;
     height: 92px;
     border: 1px solid   #AFB1B8;
@@ -317,7 +329,11 @@ ul {
     align-items: center;
     fill: #AFB1B8;
 }
-.brand:hover {
+.brand-card:hover {
+    border-color: var(--blue-brand-color);
+    fill: var(--blue-brand-color);
+}
+.brand-card:focus {
     border-color: var(--blue-brand-color);
     fill: var(--blue-brand-color);
 }
@@ -455,5 +471,11 @@ a.logo-footer {
     fill: var(--general-white-color);
     background-color:#2196F3;
     cursor: pointer;
-
+}
+.social-cover-footer:focus .social-link-footer,
+.social-link-footer:focus .social-icon-footer
+{
+    fill: var(--general-white-color);
+    background-color:#2196F3;
+    cursor: pointer;
 }
