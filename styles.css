@@ -300,14 +300,22 @@ ul {
 .social-icon {
     fill: #AFB1B8;
 }
-
+.social-link:focus,
+.social-link:focus .social-icon,
 .social-cover:hover,
 .social-cover:hover .social-icon
 {
     fill: var(--general-white-color);
     background-color:#2196F3;
     cursor: pointer;
-
+}
+.social-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 /*companies*/
@@ -364,7 +372,8 @@ ul {
     letter-spacing: 0.03em;
     padding: 6px 22px;
 }
-.filter-button :hover{
+.filter-button>a :focus,
+.filter-button>a :hover{
     color: var(--general-white-color);
     background-color: var(--blue-brand-color);
     cursor: pointer;
@@ -375,6 +384,10 @@ ul {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+}
+.cards-portfolio:hover {
+    box-shadow:  0px, 1px
+    rgba(0, 0, 0, 0.12);
 }
 .card-portfolio-desc {
     padding-top: 20px;
@@ -448,7 +461,7 @@ a.logo-footer {
     font-size: 14;
     font-weight: 700px;
 }
-.social-link {
+.social-link-group {
     margin-top: 20px;
     
 }
@@ -472,10 +485,19 @@ a.logo-footer {
     background-color:#2196F3;
     cursor: pointer;
 }
-.social-cover-footer:focus .social-link-footer,
+.social-link-footer:focus,
+.social-cover-footer:focus,
 .social-link-footer:focus .social-icon-footer
 {
     fill: var(--general-white-color);
     background-color:#2196F3;
     cursor: pointer;
+}
+.social-link-footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
