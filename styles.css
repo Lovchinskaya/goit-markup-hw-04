@@ -338,6 +338,7 @@ ul {
 .brand-card:hover {
     border-color: var(--blue-brand-color);
     fill: var(--blue-brand-color);
+    cursor: pointer;
 }
 .brand-card:focus {
     border-color: var(--blue-brand-color);
@@ -385,6 +386,7 @@ ul {
 }
 .cards-portfolio:hover {
     box-shadow:  0px 4px 6px 0px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 .card-portfolio-desc {
     padding-top: 20px;
