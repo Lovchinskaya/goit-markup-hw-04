@@ -197,7 +197,7 @@ ul {
     font-weight: 700;
     font-size: 14px;
     padding-bottom: 10px;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 .sub-title, .sub-title-description {
     color: var(--text-color-bold);
@@ -282,8 +282,7 @@ ul {
 .social-group {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
-
+    margin-top: 16px;
 }
 .social-cover {
     display: flex;
@@ -457,8 +456,7 @@ a.logo-footer {
     color: var(--general-white-color);
     text-align: center;  
     letter-spacing: 0.03em;
-    font-size: 14;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .social-link-group {
     margin-top: 20px;
